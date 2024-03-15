@@ -1,0 +1,38 @@
+.feed-cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.feedback{
+    padding: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    width: 60%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.user-email{
+    border-bottom: 1px solid rgba(12, 12, 12, 0.432);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.user-feedback{
+
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+

@@ -1,0 +1,64 @@
+.reg-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.reg-form {
+
+    border: 3px solid #f1f1f1;
+    max-width: 400px;
+}
+
+
+.reg-first, .reg-last, .reg-password, .reg-email, .reg-con-password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* Set a style for all buttons */
+  .reg-button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .reg-button:hover {
+    opacity:1;
+  }
+  
+  
+  
+  .reg-container {
+    padding: 16px;
+  }
+  
+  .clearfix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+     .reg-button {
+       width: 100%;
+    }
+  }

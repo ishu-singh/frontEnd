@@ -1,0 +1,56 @@
+.detail-cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.user-details{
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 90px;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px;
+
+}
+
+.delete-user{
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 31, 31);
+    color: white;
+    width: 100px;
+    transition: 0.2s ease-in-out;
+}
+.delete-user:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.admin-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.total-users{
+    margin-top: 20px;
+    margin-left: -50%;
+    margin-bottom: 50px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

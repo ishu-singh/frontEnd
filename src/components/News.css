@@ -1,0 +1,19 @@
+.news-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.news{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    border: 2px solid red;
+}
+.card-container{
+    border: 2px solid red;
+
+}
